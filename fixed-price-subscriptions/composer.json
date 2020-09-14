@@ -1,0 +1,15 @@
+{
+    "name": "fsms/stripe-playground",
+    "version": "1.0.0",
+    "description": "A Stripe sample implementing cards for subscriptions with fixed prices.",
+    "require": {
+        "stripe/stripe-php": "^7.52",
+        "monolog/monolog": "^2.1",
+        "vlucas/phpdotenv": "^5.1",
+        "slim/slim": "^4.5"
+    },
+    "scripts": {
+        "start" :"php -S localhost:4242 index.php"
+    }
+
+}
