@@ -6,7 +6,8 @@
         "stripe/stripe-php": "^7.52",
         "monolog/monolog": "^2.1",
         "vlucas/phpdotenv": "^5.1",
-        "slim/slim": "^4.5"
+        "slim/slim": "^4.5",
+        "slim/psr7": "^1.2"
     },
     "scripts": {
         "start" :"php -S localhost:4242 index.php"
