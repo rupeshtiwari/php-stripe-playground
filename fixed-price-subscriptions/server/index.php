@@ -42,7 +42,7 @@ function initializeTheStripeClient()
 function setupRoutes($app)
 {
     $app->get('/', function (Request $request, Response $response, array $args) {
-        $response->getBody()->write(file_get_contents(__DIR__ . '/../client/index.html'));
+        $response->getBody()->write(file_get_contents(__DIR__ . '/../client/react/build/index.html'));
         return $response;
     });
 
